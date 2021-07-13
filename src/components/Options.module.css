@@ -1,0 +1,71 @@
+.FormControl {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  margin: 5px 0;
+  outline: none;
+  background-color: #eee;
+}
+.Title {
+  text-align: center;
+}
+.Container{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.9);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.Card {
+  z-index: 2;
+  top: calc(50vh - 100px);
+  left: 50vw;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  width: 90%;
+  background-color: rgb(95, 160, 21);
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 20vh auto;
+  box-sizing: border-box;
+}
+
+.Label {
+  display: block;
+  box-sizing: border-box;
+  margin: 5px 0;
+  text-align: center;
+}
+
+.Submit {
+  background-color: rgba(91, 91, 250, 0.849);
+  color: white;
+  outline: none;
+  border-radius: 2px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 5px 5px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.Cancel {
+  background-color: rgb(97, 30, 117);
+  color: white;
+  outline: none;
+  border-radius: 2px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  margin: 5px 5px;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.ButtonContiner {
+  display: flex;
+  justify-content: space-between;
+}

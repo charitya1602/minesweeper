@@ -1,0 +1,69 @@
+.Row {
+  box-sizing: border-box;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+.Land {
+  display: block;
+  box-sizing: border-box;
+  transition: all 0.1s ease-out;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.Discovered {
+  background-color: rosybrown;
+}
+.UnDiscovered {
+  background-color: green;
+}
+.UnDiscovered:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+}
+.LandOdd {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+}
+.LandEven {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+}
+.Flagged {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.Zero {
+  background-color: transparent;
+}
+.One {
+  color: rgba(21, 21, 145, 0.801);
+}
+.Two {
+  color: rgba(112, 4, 67, 0.747);
+}
+.Three {
+  color: rgb(131, 4, 4);
+}
+.Four {
+  color: rgb(255, 30, 0);
+}
+.Five {
+  color: rgb(255, 0, 0);
+}
+.Five {
+  color: brown;
+}
+.Six {
+  color: red;
+}
+.Seven {
+  color: red;
+}
+.Eight {
+  color: black;
+}
